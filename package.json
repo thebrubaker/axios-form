@@ -1,0 +1,44 @@
+{
+  "name": "axios-form",
+  "version": "0.0.1",
+  "description":
+    "A utility for managing form validation between the client and api.",
+  "main": "dist/main.bundle.js",
+  "scripts": {
+    "build": "node build.js",
+    "unit": "jest --config tests/jest.conf.js",
+    "test": "npm run unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebrubaker/axios-form.git"
+  },
+  "keywords": ["axios", "form", "validation"],
+  "author": "Joel Brubaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thebrubaker/axios-form/issues"
+  },
+  "homepage": "https://github.com/thebrubaker/axios-form#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "chalk": "^2.4.0",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^22.4.3",
+    "ora": "^2.0.0",
+    "sinon": "^4.5.0",
+    "webpack": "^4.6.0"
+  },
+  "peerDependencies": {
+    "axios": "^0.18.0",
+    "validatorjs": "^3.14.2"
+  }
+}
